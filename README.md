@@ -18,7 +18,7 @@ we are the first to open-source building datasets for the purpose of
 batch RL learning.
 
 ---
-## Real buliding dataset
+## Real buliding buffer
 
 The real building buffer is extracted from the readings of student labs in one the school 
 buildings. The amount of datapoints in the buffers ranges from  170~260K, depends on the
@@ -45,7 +45,7 @@ discourages a large absolute value of the thermal comfort index, which indicates
 discomfort to occupants.
 
 ---
-## Simulated buliding dataset
+## Simulated buliding buffer
 
 We adopt Sinergym, an open-source simulation and control framework for training RL 
 agents. It is compatible with EnergyPlus models using Python APIs.
