@@ -50,7 +50,7 @@ discomfort to occupants.
 We adopt Sinergym, an open-source simulation and control framework for training RL 
 agents. It is compatible with EnergyPlus models using Python APIs.
     Our approach follows BRL paradigm: (1) We first train behavioral RL agents with
-$500K$ timesteps and select the one which gives the highest average score as the expert
+500K timesteps and select the one which gives the highest average score as the expert
 agent. 
     We run on 5-zone building which is a single floor building divided in 5 zones, 1
 interior and 4 exterior with 3 weather types: cool, hot, and mixed in continuous
