@@ -7,7 +7,7 @@ learning the optimal policy without the need for accurate environ-
 ment models or simulation environments as oracles. Model-based
 BRL methods learn the environment dynamic models from the
 buffers, then use these models to predict environment responses,
-and generate Markov Decision transitions given states and actions
+and generate Markov Decision Process (MDP) transitions given states and actions
 from policies. In the offline settings, existing replay experiences
 are used as prior knowledge for BRL models to learn from. Thus,
 generating replay buffers are crucial for BRL model benchmark. In
