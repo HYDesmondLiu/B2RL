@@ -1,10 +1,8 @@
 # B2RL - Building Batch Reinforcement Learning Dataset
 
-Batch reinforcement learning (BRL) is an emerging field in the re-
-inforcement learning community. It learns exclusively from static
+Batch reinforcement learning (BRL) is an emerging field in the reinforcement learning community. It learns exclusively from static
 datasets (i.e. replay buffers). Model-free BRL models are capable of
-learning the optimal policy without the need for accurate environ-
-ment models or simulation environments as oracles. Model-based
+learning the optimal policy without the need for accurate environment models or simulation environments as oracles. Model-based
 BRL methods learn the environment dynamic models from the
 buffers, then use these models to predict environment responses,
 and generate Markov Decision Process (MDP) transitions given states and actions
