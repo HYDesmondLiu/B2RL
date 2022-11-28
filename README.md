@@ -1,4 +1,4 @@
-# B2RL - **B**uilding **B**atch **R**einforcement **L**earning Dataset
+# B2RL - Building Batch Reinforcement Learning Dataset
 
 Batch reinforcement learning (BRL) is an emerging field in the re-
 inforcement learning community. It learns exclusively from static
