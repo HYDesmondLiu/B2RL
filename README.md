@@ -55,10 +55,10 @@ interior and 4 exterior with 3 weather types: cool, hot, and mixed in continuous
 settings. We also experiment on two different kinds of response type, deterministic and
 stochastic.
 Then generate expert buffer with $500K$ transitions as the expert buffer. (2) A medium 
-buffer is generated when the behavioral agent is trained "halfway", which means the 
+buffer is generated with $500K$ transitions after the behavioral agent is trained "halfway", which means the 
 evaluation score reaches the half of the expert agents' scores. (3) Randomly 
 initialized agent which samples action from allowed action spaces with uniform 
-probability during the evaluation stage to generate buffers (350,400 transitions). 
+probability during the evaluation stage to generate buffers ($350,400$ transitions). 
 
 - *State*: Site outdoor air drybulb temperature, site outdoor air relative humidity,
                     site wind speed, site wind direction, site diffuse solar radiation rate per area,
