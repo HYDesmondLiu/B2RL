@@ -34,7 +34,6 @@ responses of actions as RL states.
 
 - *Action*: We control two important parameters, namely, zone air temperature 
 setpoint and actual supply airflow setpoint. 
-Both are in continuous space and the action spaces are normalized in the range of $[-1,1]$.
 
 - *Reward*: We monitor the thermal states of the space as well as the thermal comfort 
 index predicted by a regression model, and then make control decisions with the actions 
