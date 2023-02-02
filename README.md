@@ -21,7 +21,10 @@ batch RL learning.
 The real building buffer is extracted from the readings of student labs in one the school 
 buildings. The amount of datapoints in the buffers ranges from  170~260K, depends on the
 number of rooms involved and missing values. We obtain data of an entire year, from the
-beginning of July 2017 to the end of June 2018 of 15 rooms across 3 floors. Since the
+beginning of July 2017 to the end of June 2018 of 15 rooms across 3 floors (for most of 
+the rooms, however, you might find the start and end dates of the entire dataset might be 
+earlier and later. Due to missing and corrupted data, if we want to collect a similar amount 
+of data for each room, the time period might be different from room to room.). Since the
 rooms on the same side of a floor often share similar thermal dynamics, we thus create
 batch data for each floor to ensure that the replay buffer reflects each variable air
 volume (VAV)’s thermal dynamics precisely.
