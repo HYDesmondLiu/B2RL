@@ -72,3 +72,15 @@ probability during the evaluation stage to generate buffers with $350,400$ trans
                     demand rate, current day, current month, and current hour.
 - *Action*: Heating setpoint and cooling setpoint in continuous settings.
 - *Reward*: We follow the default linear reward settings, it considers the energy consumption and the absolute difference to temperature comfort. 
+
+--
+## Please cite our paper if you use our data
+```
+@inproceedings{liu2022b2rl,
+  title={B2RL: an open-source dataset for building batch reinforcement learning},
+  author={Liu, Hsin-Yu and Fu, Xiaohan and Balaji, Bharathan and Gupta, Rajesh and Hong, Dezhi},
+  booktitle={Proceedings of the 9th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation},
+  pages={462--465},
+  year={2022}
+}
+```
